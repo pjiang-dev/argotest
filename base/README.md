@@ -7,6 +7,6 @@ To hydrate the manifests in this repository, run the following commands:
 
 git clone https://github.com/pjiang-dev/argotest.git
 # cd into the cloned directory
-git checkout 287ac88e6f4afa31967434464955e740e50a1a91
+git checkout e162bf86ffa030ccec5a7ac60555336ce92a310d
 kustomize build ./base
 ```
