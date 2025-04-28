@@ -1,0 +1,7 @@
+{
+  "repoURL": "https://github.com/pjiang-dev/argotest.git",
+  "drySha": "45e60d2761e25ae38dd022b5ccc66cf735ed70f8",
+  "commands": [
+    "kustomize build ./base"
+  ]
+}
