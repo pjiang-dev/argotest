@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   annotations:
-    argocd.argoproj.io/tracking-id: promote-app:/Service:/kustomize-guestbook-ui
+    argocd.argoproj.io/tracking-id: promote-app-dev:/Service:/kustomize-guestbook-ui
   name: kustomize-guestbook-ui
 spec:
   ports:
@@ -15,7 +15,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    argocd.argoproj.io/tracking-id: promote-app:apps/Deployment:/kustomize-guestbook-ui
+    argocd.argoproj.io/tracking-id: promote-app-dev:apps/Deployment:/kustomize-guestbook-ui
   name: kustomize-guestbook-ui
 spec:
   replicas: 1
